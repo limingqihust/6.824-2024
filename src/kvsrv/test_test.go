@@ -505,7 +505,7 @@ func TestMemPutManyClients(t *testing.T) {
 	for _, ck := range cks {
 		cfg.deleteClient(ck)
 	}
-
+	fmt.Println("here")
 	cfg.end()
 }
 
